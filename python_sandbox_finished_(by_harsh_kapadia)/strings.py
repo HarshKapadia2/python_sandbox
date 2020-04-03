@@ -4,7 +4,7 @@ name = 'Selena'
 age = 27
 
 # concatenate
-print('My name is '+ name + ' and my age is ' + str(age)) # giver error if int age is not type casted to str
+print('My name is ' + name + ' and my age is ' + str(age)) # gives error if int age is not type casted to str
 
 # String Formatting
 # positional arguments
@@ -16,7 +16,7 @@ print(f'Hey! My name is {name} and my age is {age}.')
 s = 'hello WorLd'
 
 # capitalize first letter of str and make all others small
-print(s.capitalize()) # o/p: Hello world
+print(s.capitalize()) # i/p: hello World o/p: Hello world
 
 # Make all uppercase
 print(s.upper())
