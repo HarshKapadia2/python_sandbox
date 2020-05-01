@@ -54,3 +54,6 @@ for more:
 https://www.geeksforgeeks.org/mathematical-functions-in-python-set-3-trigonometric-and-angular-functions/?ref=rp
 https://www.geeksforgeeks.org/mathematical-functions-in-python-set-4-special-functions-and-constants/?ref=rp
 '''
+'''
+PS: To round off to 2 decimals, use print('{:0.2f}'.format(answer)). Math library NOT reqd to be imported.
+'''

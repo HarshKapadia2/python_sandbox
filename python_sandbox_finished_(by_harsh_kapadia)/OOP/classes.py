@@ -41,5 +41,5 @@ print(user_obj.greetings()) # age is 28, not 27
 customer_obj = Customer('Felix Arvid ulf Kjellberg', 'pewdiepie@gmail.com', 30)
 customer_obj.setBalance(30000)
 
-customer_obj.hasBirthday()
-print(customer_obj.greetings()) # first pref to fn in customer class
+customer_obj.hasBirthday() # age = 30 + 1 = 31
+print(customer_obj.greetings()) # first pref to fn in customer class & age = 31 (due to prev line)
